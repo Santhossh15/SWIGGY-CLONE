@@ -1,3 +1,52 @@
-#parent{
-    color:aqua
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.name
+{
+    padding-left: 220px;
+    padding-top: 40px;
+    color: green;
+}
+.logo{
+    width:200px;
+    
+}
+.nav-items{
+    padding : 0px 20px;
+}
+.nav-items > ul{
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul > li {
+    padding:10px;
+    margin:10px;
+}
+.res-container{
+    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.res-card{
+    width:300px;
+    background-color: #f0f0f0;
+    padding:5px;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+.res-card:hover{
+    cursor: pointer;
+    border:5px dashed black;
+    background-color: rgba(138, 131, 135, 0.331);
+}
+.search{
+    padding:10px;
+}
+.res-logo{
+    width:100%;
+    border-radius: 10px;
 }

@@ -1,0 +1,25 @@
+{
+  "name": "react-pro",
+  "version": "1.0.0",
+  "description": "\"React Developer\"",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://guithub.com/Santhossh15/React)"
+  },
+  "author": "\"Santhossh\"",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
