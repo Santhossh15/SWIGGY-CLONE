@@ -43,8 +43,9 @@
     border:5px dashed black;
     background-color: rgba(138, 131, 135, 0.331);
 }
-.search{
-    padding:10px;
+.filter-btn{
+    margin:10px;
+    cursor: pointer;
 }
 .res-logo{
     width:100%;
