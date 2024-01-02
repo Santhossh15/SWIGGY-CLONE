@@ -43,10 +43,31 @@
     background-color: rgba(138, 131, 135, 0.331);
 }
 .filter-btn{
-    margin:10px;
+    margin-left:20px;
     cursor: pointer;
 }
 .res-logo{
     width:100%;
     border-radius: 10px;
+}
+.shimmer-card{
+    margin:20px;
+    width:310px;
+    height:410px;
+    background-color: #f0f0f0;
+}
+.shimmer-container{
+    margin-top:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.login
+{
+    padding: 0px 20px;
+}
+.filter{
+    margin-top:15px;
+    margin-bottom: 20px;;
+    display: flex;
 }
