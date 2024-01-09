@@ -1,8 +1,17 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 const User = () => {
+  useEffect(()=>{
+    const timer = setInterval(()=>{
+      console.log("Santhossh")
+    },1000);
+    return()=> clearInterval(timer);
+  },[])
   return (
-    <div>User</div>
+    <div>
+      Santhossh
+    </div>
   )
 }
 
