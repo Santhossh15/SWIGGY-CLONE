@@ -3,13 +3,14 @@ import React from "react";
 import { useState } from "react";
 import {Link} from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+
 const Header = () =>{
     const [btnNameReact,setBtnNameReact] =useState("Login")
     const onlineStatus = useOnlineStatus();
     return(
-        <div className="header">
+        <div className="flex">
         <div className="logo-container">
-            <img className="logo" src = {LOGO_URL}></img>
+            <img className="w-200" src = {LOGO_URL}></img>
         </div>
         <div ><h1 className="name">Shankar Foods</h1></div>
         <div className="nav-items">
