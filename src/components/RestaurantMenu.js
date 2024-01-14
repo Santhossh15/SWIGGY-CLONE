@@ -12,6 +12,7 @@ const RestaurantMenu = () => {
   if (resInfo == null) {
     return <Shimmer />;
   }
+  const dummy = "Santhossh";
   const { itemCards = [] } =
     resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card
       ?.card || [];
@@ -30,6 +31,7 @@ const RestaurantMenu = () => {
         data={category?.card?.card}
         showItems={index == showIndex ? true : false}
         setShowIndex={() => setShowIndex(index)}
+        dummy={dummy}
       />
       ))}
     </div>

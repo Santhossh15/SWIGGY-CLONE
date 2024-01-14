@@ -50,10 +50,10 @@ const Body = () => {
                         setFilteredRestaurant(result)
                     }}>Search</button>
                     <div className="search m-4 p-4 flex items-center">
-                        <label>UserName : </label>
                         <button className="px-4 py-2 bg-gray-100 rounded-lg" onClick={() => { const result = listRestaurant.filter((res) => res.info.avgRating > 4); setFilteredRestaurant(result) }}>Top Rated Restaurants</button>
                     </div>
                     <div>
+                        <label>UserName : </label>
                         <input className="p-2 border border-black" onChange={(e) => setUserName(e.target.value)} value={loggedInUser}></input>
                     </div>
                 </div>
